@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+ float r,t;
+ float Volume, Luas;
+ float phi;
+ phi = float (22)/7;
+ 
+ cout << "Menghitung Luas dan Volume Bak Mandi" << endl;
+ cout << "-------------------------------------";
+ cout << endl;
+ 
+ cout << "Masukkan jari-jari bak mandi : ";
+ cin >> r;
+ cout << "Masukkan tinggi bak mandi : ";
+ cin >> t;
+ Volume = phi*r*r*t;
+ Luas = 2*phi*r*(r+t);
+ cout << "Volume bak mandi adalah      : " << Volume << endl;
+ cout << "Luas permukaan bak mandi     : " << Luas;
+    return 0;
+}
